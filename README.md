@@ -2,7 +2,7 @@
 
 Проект написан на платформе NodeJS, с использованием фреймворка MeteorJS и библиотеки ReactJS.
 
-# Установка
+# Установка и запуск
 
 - Установите [NodeJS](https://nodejs.org/en/download/) и [MeteorJS](https://www.meteor.com/install) на свой компьютер
 - Скачайте проект в локальную папку: ``git clone git@github.com:vettich/quotes.git``
