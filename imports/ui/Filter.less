@@ -1,0 +1,23 @@
+.app-filter {
+	float: right;
+	width: 200px;
+	max-width: 100%;
+	transition: width .5s ease 0s;
+	margin-bottom: 1em;
+
+	&:focus-within {
+		width: 100%;
+	}
+	&__input {
+		background-color: transparent;
+		border: none;
+		padding: .5em;
+		border-bottom: 1px dotted;
+		width: 100%;
+
+		&:hover, &:focus {
+			border-bottom: 1px solid #00bfce;
+			background-color: rgba(0, 0, 0, 0.03);
+		}
+	}
+}
